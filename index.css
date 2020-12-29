@@ -1,0 +1,57 @@
+Body {
+    font-family: 'Times New Roman', Times, serif;
+    color: cornsilk;
+    background: linear-gradient(to left, #d200fc, #0703ff, #ff00aa);
+}
+.button{
+    background-color: #0b8000;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    padding-bottom:  5px;
+    margin: 10px 0px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 20px;
+    height: 40px;
+    padding-top: 5px;
+    border-radius: 10px , 10px;
+}
+
+.form {
+    margin-top: 1%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+form {
+    /* border: 3px double #edf794; */
+    padding: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 2px solid rgb(1, 45, 241);
+    box-sizing: border-box;
+}
+input[type=submit]{
+
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.result{
+    color: wheat;
+}
+.login{
+    border: 2px solid hsl(239, 100%, 50%) ;
+    color: #e6eef7;
+    margin-left: 32%;
+}

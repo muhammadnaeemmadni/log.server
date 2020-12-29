@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <form onsubmit="return postSign()">
+        Name:
+            <input type="text" id="name" maxlength="15" placeholder="First Name" required="required">
+            <br>
+            <br>
+        E-mail:
+             <input type="text" id="email" maxlength="30" placeholder="email@gmail.com" required="required">
+             <br>
+             <br>
+        Password:
+             <input type="password" id="password" placeholder="xxxxx" required="required">
+             <br>
+             <br>
+             <input type="submit" value="Sign Up!"><br>
+             <br>
+
+    </form>
+    <!-- <p style="font-size: 18px;">Already have an accunt? -->
+        <a href="./login.html" class="login">Login</a> 
+    <!-- </p> -->
+    <br>
+    <br>
+    <div class="result">
+    <span id="result" class="result"></span>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

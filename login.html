@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page </title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+    <form onsubmit="return login()">
+        email:
+        <input type="email" id="lemail" placeholder="@gmail.com">
+        <br>
+        <br>
+        Password:
+        <input type="password" id="lpassword" placeholder="xxxxx">
+        <br>
+        <br>
+         <input type="submit" value="Login">
+    </form>
+    <br>
+    <p style="font-size: 18px; color: bisque; ;margin-left: 30%;"> Create account<a href="./index.html" class="signup">Sign up</a> </p>
+    <br>
+    <br>
+    <div class="result">
+    <span id="email"></span>
+    </div>
+
+   
+    <script src="index.js"></script>
+</body>
+
+</html>
